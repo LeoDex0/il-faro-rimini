@@ -82,7 +82,7 @@ export function SiteFooter() {
 
         <div className="mt-16 flex flex-col gap-3 border-t border-foam/10 pt-8 text-xs text-foam/40 sm:flex-row sm:items-center sm:justify-between">
           <p>
-            © {year} {site.legalName} — P.IVA 00000000000
+            © {year} {site.legalName} — P.IVA 00000000000{" · "}<a href="https://leodex.dev/it/" className="underline-offset-2 hover:underline">Sito realizzato da LeoDex</a>
           </p>
           <p>
             Foto storica del porto canale: Mister No, licenza{" "}
